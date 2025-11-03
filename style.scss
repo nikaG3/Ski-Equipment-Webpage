@@ -702,7 +702,8 @@ footer {
 @media screen and (max-width: 1480px) {
   .projects .pCards {
     grid-template-columns: 1fr 1fr;
-    gap: 150px;
+    gap: 80px;
+    font-size: 12px;
   }
 }
 
