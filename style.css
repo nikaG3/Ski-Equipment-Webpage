@@ -715,6 +715,42 @@ footer .fRight a {
     gap: 150px;
   }
 }
+@media screen and (max-width: 1380px) {
+  .fRight {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .fMiddle {
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .team {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .team h1 {
+    font-size: 45px;
+    margin: 30px;
+  }
+  .team .tCards {
+    grid-template-columns: 1fr;
+    padding: 30px;
+    gap: 30px;
+  }
+  .team .tCards .tCard {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .team .tCards .tCard h3 {
+    font-size: 24px;
+  }
+  .team .tCards .tCard img {
+    width: 100%;
+    height: auto;
+  }
+}
 @media screen and (max-width: 1024px) {
   nav {
     padding: 20px 30px;
@@ -935,31 +971,6 @@ footer .fRight a {
   .mission .mRight .mInside p {
     width: 90%;
     font-size: 18px;
-  }
-  .team {
-    height: auto;
-    padding-bottom: 40px;
-  }
-  .team h1 {
-    font-size: 45px;
-    margin: 30px;
-  }
-  .team .tCards {
-    grid-template-columns: 1fr;
-    padding: 30px;
-    gap: 30px;
-  }
-  .team .tCards .tCard {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  .team .tCards .tCard h3 {
-    font-size: 24px;
-  }
-  .team .tCards .tCard img {
-    width: 100%;
-    height: auto;
   }
   .home {
     margin-top: 90px;
