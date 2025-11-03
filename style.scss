@@ -699,6 +699,14 @@ footer {
   }
 }
 
+@media screen and (max-width: 1480px) {
+  .projects .pCards {
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+  }
+  
+}
+
 @media screen and (max-width: 1024px) {
   nav {
     padding: 20px 30px;
